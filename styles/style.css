@@ -10,23 +10,24 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    padding-left: 0px;
 }
 header a {
     color: #FBEAD6;
     text-decoration: none;
 }
 header li {
+    display: flex;
     font-family: 'RobotoCondensed', Arial, sans-serif;
     background-color: #2C2C2C;
     font-size: 45px;
-    text-align: left;
+    align-items: center;
     letter-spacing: -1px;
     line-height: 120%;
     font-weight: bold;
     height: 66px;
     width: auto;
-    padding-left: 6px;
-    padding-top: 15px;
+    padding-left: 10px 16px 10px 16px;
 }
 h1 {
     display: none;
