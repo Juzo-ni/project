@@ -30,7 +30,9 @@ header a {
 
 header li {
     display: flex;
-    font-family: 'RobotoCondensedBlack', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 900;
+    font-weight: 900;
     background-color: #2C2C2C;
     font-size: 45px;
     align-items: center;
@@ -82,10 +84,11 @@ header li {
 }
 
 .section2 {
-    height: 208px;
+    height: 828px;
     display: flex;
     flex-direction: column;
-    font-family: 'RobotoCondensedBold', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -94,7 +97,8 @@ header li {
 .grey {
     color: #717171;
     font-size: 12px;
-    font-family: 'RobotoCondensedBold', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -107,11 +111,6 @@ header li {
 }
 
 .section3 {
-    height: 720px;
-    display: flex;
-}
-
-.section4 {
     height: 668px;
     display: flex;
     flex-direction: column;
@@ -128,8 +127,9 @@ header li {
     height: 30px;
 }
 
-h3 {
-    font-family: 'RobotoCondensedBlack', Arial, sans-serif;
+.section3p {
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 900;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ h3 {
     color: #2C2C2C;
 }
 
-.section5 {
+.section4 {
     height: 678px;
     display: flex;
     flex-direction: row;
@@ -147,13 +147,13 @@ h3 {
     margin-top: 88px;
 }
 
-.imgs5 {
+.imgs4 {
     width: 540px;
     height: 540px;
     padding: 50px;
 }
 
-.section6 {
+.section5 {
     height: 978px;
     display: flex;
     flex-direction: column;
@@ -161,7 +161,8 @@ h3 {
 }
 
 .fest {
-    font-family: 'RobotoCondensedBlack', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 900;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -182,7 +183,7 @@ hr {
     padding: 0px;
 }
 
-.section6_1 {
+.section5_1 {
     display: flex;
     flex-direction: row;
     width: 920px;
@@ -199,7 +200,8 @@ hr {
     margin: auto;
     text-align: left;
     line-height: 30px;
-    font-family: 'RobotoCondensedBold', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 20px;
     color: #2C2C2C;
@@ -207,7 +209,7 @@ hr {
     margin-left: 0px;
 }
 
-.block6 {
+.block5 {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -218,15 +220,16 @@ hr {
     margin-bottom: 20px;
 }
 
-.nametext6 {
-    font-family: 'RobotoCondensedBold', Arial, sans-serif;
+.nametext5 {
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 20px;
     color: #2C2C2C;
     margin-bottom: 15px;
 }
 
-.section7 {
+.section6 {
     height: 1126px;
     display: flex;
     flex-direction: column;
@@ -242,8 +245,9 @@ hr {
     border-radius: 10px;
 }
 
-.BigtextS7 {
-    font-family: 'RobotoCondensedBlack', Arial, sans-serif;
+.BigtextS6 {
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 900;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -252,7 +256,7 @@ hr {
     color: #2C2C2C;
 }
 
-.textS7 {
+.textS6 {
     margin-top: 40px;
     text-align: center;
     color: #2C2C2C;
@@ -277,7 +281,8 @@ footer {
 
 footer p {
     font-size: 12px;
-    font-family: 'RobotoCondensedBold', Arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     color: #2C2C2C;
     padding: 2px;
@@ -305,5 +310,4 @@ footer a {
     height: 210px;
     margin: auto;
     margin-bottom: 90px;
-
 }
