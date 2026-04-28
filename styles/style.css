@@ -32,6 +32,7 @@ header li {
     display: flex;
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 900;
+    line-height: 120%;
     background-color: #2C2C2C;
     font-size: 45px;
     align-items: center;
@@ -87,8 +88,6 @@ header li {
     height: 828px;
     display: flex;
     flex-direction: column;
-    font-family: 'RobotoCondensed', Arial, sans-serif;
-    font-weight: 700;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -99,10 +98,14 @@ header li {
     font-size: 12px;
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 700;
+    line-height: 150%;
     text-transform: uppercase;
 }
 
 .text {
+    font-family: 'RobotoCondensed', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 130%;
     color: #2C2C2C;
     margin: auto;
     font-size: 30px;
@@ -131,6 +134,7 @@ header li {
 .section3p {
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 900;
+    line-height: 120%;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -164,6 +168,7 @@ header li {
 .fest {
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 900;
+    line-height: 120%;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -193,6 +198,7 @@ hr {
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
+    line-height: 150%;
     font-size: 20px;
     color: #2C2C2C;
 }
@@ -204,6 +210,7 @@ hr {
     line-height: 30px;
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 700;
+    line-height: 150%;
     text-transform: uppercase;
     font-size: 20px;
     color: #2C2C2C;
@@ -225,6 +232,7 @@ hr {
 .nametext5 {
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 700;
+    line-height: 150%;
     text-transform: uppercase;
     font-size: 20px;
     color: #2C2C2C;
@@ -250,6 +258,7 @@ hr {
 .BigtextS6 {
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 900;
+    line-height: 120%;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -265,6 +274,7 @@ hr {
     font-size: 20px;
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
+    line-height: 150%;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -286,6 +296,7 @@ footer p {
     font-size: 12px;
     font-family: 'RobotoCondensed', Arial, sans-serif;
     font-weight: 700;
+    line-height: 150%;
     text-transform: uppercase;
     color: #2C2C2C;
     padding: 2px;
