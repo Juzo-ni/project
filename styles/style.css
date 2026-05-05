@@ -2,9 +2,14 @@ body {
     background-color: #FBEAD6;
     display: flex;
     flex-direction: column;
-    min-width: 1280px;
     height: auto;
     margin: auto;
+}
+
+.container {
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
 }
 
 .none {
@@ -19,7 +24,6 @@ body {
 }
 
 header {
-    height: 110px;
     margin-top: 10px;
 }
 
@@ -54,15 +58,8 @@ header li {
     text-align: center;
 }
 
-.main {
-    min-width: 1280px;
-    display: flex;
-    flex-direction: column;
-}
-
 .section1 {
     min-width: 1280px;
-    height: 957px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,6 +71,7 @@ header li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 100px;
 }
 
 .flashlight {
@@ -90,11 +88,9 @@ header li {
 .peper {
     width: 1280px;
     height: 301px;
-    margin-top: 30px;
 }
 
 .section2 {
-    height: 828px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -121,10 +117,10 @@ header li {
     width: 1200px;
     height: 78px;
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .section3 {
-    height: 668px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -138,6 +134,7 @@ header li {
     align-items: center;
     width: 30px;
     height: 30px;
+    padding: 40px;
 }
 
 .section3p {
@@ -152,7 +149,6 @@ header li {
 }
 
 .section4 {
-    height: 678px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -168,7 +164,6 @@ header li {
 }
 
 .section5 {
-    height: 978px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -182,8 +177,7 @@ header li {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: -1px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #2C2C2C;
 }
 
@@ -194,7 +188,7 @@ hr {
     width: 920px;
     margin: 20px auto;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 0px;
 }
 
@@ -249,7 +243,6 @@ hr {
 }
 
 .section6 {
-    height: 1126px;
     display: flex;
     flex-direction: column;
 }
@@ -257,7 +250,7 @@ hr {
 .bigimg {
     display: flex;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
     width: 1200px;
     height: 600px;
@@ -272,7 +265,7 @@ hr {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: -1px;
-    margin: 40px;
+    margin: 60px;
     color: #2C2C2C;
 }
 
@@ -290,9 +283,9 @@ hr {
 
 footer {
     background-color: #7AA4AD;
-    height: 600px;
     display: flex;
     flex-direction: column;
+    margin-top: 94px;
 }
 
 .row {
@@ -333,4 +326,5 @@ footer a {
     height: 210px;
     margin: auto;
     margin-bottom: 90px;
+    margin-top: 136px;
 }
